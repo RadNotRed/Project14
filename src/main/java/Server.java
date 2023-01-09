@@ -10,41 +10,47 @@ public class Server {
         this.assignment2Grades = assignment2Grades;
     }
 
-    // method to convert letter grade to numeric grade
+/*     method to convert letter grade to numeric grade
+     grades are now based upon A+ (97–100), A (93–96), A- (90–92), B+ (87–89), B (83–86), B- (80–82), C+ (77–79), C (73–76), C- (70–72), D+ (67–69), D (65–66), D- (below 65).
+     source: collegeboard grading, all letters use the top value*/
+
     private int convertLetterGradeToNumeric(String letterGrade) {
         switch (letterGrade.toUpperCase()) {
-            case "A+", "A" -> {
-                return 4;
+            case "A+" -> {
+                return 100;
+            }
+            case "A" -> {
+                return 96;
             }
             case "A-" -> {
-                return (int) 3.7;
+                return 92;
             }
             case "B+" -> {
-                return (int) 3.3;
+                return 89;
             }
             case "B" -> {
-                return 3;
+                return 86;
             }
             case "B-" -> {
-                return (int) 2.7;
+                return 82;
             }
             case "C+" -> {
-                return (int) 2.3;
+                return 79;
             }
             case "C" -> {
-                return 2;
+                return 76;
             }
             case "C-" -> {
-                return (int) 1.7;
+                return 72;
             }
             case "D+" -> {
-                return (int) 1.3;
+                return 69;
             }
             case "D" -> {
-                return 1;
+                return 66;
             }
             case "D-" -> {
-                return (int) 0.7;
+                return 65;
             }
             case "F" -> {
                 return 0;
@@ -73,7 +79,7 @@ public class Server {
 
         if (studentIndex != -1) {
             // student found, retrieve assignment 1 grade, assignment 2 grade
-            studentGrades[0] = assignment1Grades[studentIndex];
+            studentGrades[0] = assignment1Grades[studentIndex] + " (" + convertLetterGradeToNumeric(assignment1Grades[studentIndex]) + ")";
             studentGrades[1] = String.valueOf(assignment2Grades[studentIndex]);
 
             // calculate current average

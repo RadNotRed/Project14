@@ -17,17 +17,14 @@ public class Main {
         for (int i = 0; i < 1; i++) {
             System.out.println("Enter student name: ");
             studentNames[i] = sc.nextLine();
-            System.out.println("Enter grade for assignment 1: ");
+            System.out.println("Enter the letter grade for assignment 1: ");
             assignment1Grades[i] = sc.nextLine();
-            System.out.println("Enter grade for assignment 2: ");
+            System.out.println("Enter the numerical grade for assignment 2: ");
             assignment2Grades[i] = sc.nextInt();
             sc.nextLine(); // clear scanner buffer
         }
 
-
-
-
-                // create Server object and pass student names, grades to it
+        // create Server object and pass student names, grades to it
         Server server = new Server(studentNames, assignment1Grades, assignment2Grades);
 
         // ask user for student name to look up
