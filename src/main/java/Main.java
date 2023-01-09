@@ -17,7 +17,7 @@ public class Main {
         for (int i = 0; i < 1; i++) {
             System.out.println("Enter student name: ");
             studentNames[i] = sc.nextLine();
-            System.out.println("Enter the letter grade for assignment 1: ");
+            System.out.println("Enter the letter grade for assignment 1: \n(A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F)");
             assignment1Grades[i] = sc.nextLine();
             System.out.println("Enter the numerical grade for assignment 2: ");
             assignment2Grades[i] = sc.nextInt();
