@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d4cab6-07e3-40d5-9818-123aba97f5c8" name="Changes" comment="Workspace update">
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server.class" afterDir="false" />
-    </list>
+    <list default="true" id="19d4cab6-07e3-40d5-9818-123aba97f5c8" name="Changes" comment="Understandable inputs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -97,7 +92,7 @@
       <updated>1673268170664</updated>
       <workItem from="1673268171921" duration="5704000" />
       <workItem from="1673294813138" duration="4144000" />
-      <workItem from="1673299839864" duration="319000" />
+      <workItem from="1673299839864" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Project 14">
       <created>1673293469242</created>
@@ -141,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673297307615</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Understandable inputs">
+      <created>1673300222044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673300222044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +171,8 @@
     <MESSAGE value="Better .gitignore" />
     <MESSAGE value="Better letter grading system" />
     <MESSAGE value="Workspace update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace update" />
+    <MESSAGE value="Understandable inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understandable inputs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
