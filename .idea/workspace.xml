@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d4cab6-07e3-40d5-9818-123aba97f5c8" name="Changes" comment="Understandable inputs" />
+    <list default="true" id="19d4cab6-07e3-40d5-9818-123aba97f5c8" name="Changes" comment="Project 14">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="0dbaf52c-f0a5-41d2-ab87-013f88d21d99" />
+    <option name="defaultAccountId" value="ddfa60a5-f375-4e65-998a-b5de10f72a09" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +45,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2K5d2Q6QhO1fgqQ0yQdKi3JDgvo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rad/Documents/GitHub/Project14/out/artifacts/Project14_jar/Project14.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rad/Downloads/Dragon Tale Tutorial P08&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +100,8 @@
       <workItem from="1673268171921" duration="5704000" />
       <workItem from="1673294813138" duration="4144000" />
       <workItem from="1673299839864" duration="626000" />
+      <workItem from="1673957296576" duration="672000" />
+      <workItem from="1674146486144" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="Project 14">
       <created>1673293469242</created>

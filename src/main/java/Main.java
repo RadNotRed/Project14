@@ -14,7 +14,7 @@ public class Main {
         Arrays.fill(studentNames, "");
 
         // get student names and grades from user input
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println("Enter student name: ");
             studentNames[i] = sc.nextLine();
             System.out.println("Enter the letter grade for assignment 1: \n(A+, A, A-, B+, B, B-, C+, C, C-, D+, D, D-, F)");

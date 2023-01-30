@@ -88,8 +88,8 @@ public class Server {
         } else {
             // student not found
             studentGrades[0] = "Error: Student not found.";
-            studentGrades[1] = "";
-            studentGrades[2] = "";
+            studentGrades[1] = "Error: Student not found.";
+            studentGrades[2] = "Error: Student not found.";
         }
 
         return studentGrades;
